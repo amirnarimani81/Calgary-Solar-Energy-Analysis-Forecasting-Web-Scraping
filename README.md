@@ -152,9 +152,16 @@ To address this challenge, the project develops a solar PV analytics and forecas
 
 <h3>2. Energy Market Intelligence Challenge</h3>
 
-<p>
+<h2>🎥 Project Demo Video</h2>
+
+<p align="center">
 <strong>Video Link:</strong><br>
-<!-- Add YouTube / Demo link here -->
+
+<a href="https://github.com/amirnarimani81/Calgary-Solar-Energy-Analysis-Forecasting-Web-Scraping/blob/0ede3e0bf07ad6f384edb1b78e84208b825c1aa9/2.Energy%20Market%20Scraping%20%26%20Forecasting/Assest/streamlit-deploy-2026-07-12-23-07-27.webm">
+Watch Energy Market Scraping & Forecasting Dashboard Demo
+</a>
+
+</p>
 </p>
 
 <p>
