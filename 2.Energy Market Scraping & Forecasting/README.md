@@ -303,7 +303,7 @@ Allows users to explore stock performance, revenue trends, company comparisons, 
 Provides a 90-day stock price forecast with historical comparison, forecasting results, and trend/seasonality components.
 </p>
 
-<img src="assets/correlation_heatmap.png" width="300">
+<img src="Plot/1.png" width="800">
 <hr>
 
 
