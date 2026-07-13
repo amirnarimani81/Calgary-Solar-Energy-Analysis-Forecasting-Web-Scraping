@@ -10,12 +10,6 @@ An End-to-End Energy Financial Intelligence Platform Combining Web Scraping, ETL
 <hr>
 
 
-<h2>🎥 Demo Video</h2>
-
-<p>
-<strong>Video Link:</strong><br>
-<!-- Add YouTube / Demo link here -->
-</p>
 
 
 <hr>
