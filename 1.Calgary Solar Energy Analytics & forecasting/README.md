@@ -768,6 +768,7 @@ These findings provided the foundation for the next stage of the project: develo
 
 <hr>
 
+
 <h2> Forecasting & Machine Learning Modeling</h2>
 
 <p>
@@ -778,3 +779,522 @@ The forecasting stage focused on developing predictive models capable of estimat
 Multiple time-series forecasting approaches were evaluated to understand which models could best capture Calgary’s solar generation patterns, seasonal behavior, and production volatility.
 </p>
 
+
+<h3>Forecasting Strategy</h3>
+
+<p>
+The modeling workflow followed a structured machine learning approach:
+</p>
+
+
+<ol>
+
+<li>
+Prepare time-series datasets with engineered features such as lag variables, rolling averages, and temporal indicators.
+</li>
+
+<li>
+Train forecasting models using historical solar production data.
+</li>
+
+<li>
+Evaluate model performance using forecasting accuracy metrics.
+</li>
+
+<li>
+Compare model behavior and select suitable approaches for operational and strategic applications.
+</li>
+
+</ol>
+
+
+<h3>Forecasting Models Evaluated</h3>
+
+
+<table border="1" cellspacing="0" cellpadding="8">
+
+<tr>
+<th>Model</th>
+<th>Application</th>
+</tr>
+
+
+<tr>
+<td>
+Simple Exponential Smoothing
+</td>
+<td>
+Baseline forecasting model for understanding short-term production behavior.
+</td>
+</tr>
+
+
+<tr>
+<td>
+ARIMA
+</td>
+<td>
+Short-term operational forecasting using historical time-series patterns.
+</td>
+</tr>
+
+
+<tr>
+<td>
+SARIMA
+</td>
+<td>
+Captures seasonal patterns in renewable energy generation.
+</td>
+</tr>
+
+
+<tr>
+<td>
+Prophet
+</td>
+<td>
+Long-term strategic forecasting with trend and seasonal component analysis.
+</td>
+</tr>
+
+
+</table>
+
+
+<hr>
+
+
+<h3>Model Evaluation</h3>
+
+<p>
+Forecasting performance was evaluated using standard regression metrics:
+</p>
+
+
+<ul>
+
+<li>
+<strong>RMSE (Root Mean Squared Error):</strong>
+Measures the average magnitude of forecasting errors and penalizes larger prediction mistakes.
+</li>
+
+<li>
+<strong>MAE (Mean Absolute Error):</strong>
+Measures the average absolute difference between predicted and actual energy production.
+</li>
+
+</ul>
+
+
+<p>
+The evaluation process helped identify the strengths and limitations of each forecasting approach and ensured that model selection was based on measurable performance rather than assumptions.
+</p>
+
+
+<p>
+The final forecasting framework successfully captured:
+</p>
+
+<ul>
+
+<li>
+Daily solar production cycles.
+</li>
+
+<li>
+Seasonal generation changes.
+</li>
+
+<li>
+Long-term renewable energy trends.
+</li>
+
+<li>
+Operational variability across PV installations.
+</li>
+
+</ul>
+
+
+<hr>
+
+
+<h2> Business Intelligence & Power BI Dashboard</h2>
+
+<p>
+To transform analytical results into practical business insights, the processed solar energy data was connected to Power BI through database views.
+</p>
+
+<p>
+The dashboard was designed to provide both operational monitoring and strategic decision support for renewable energy stakeholders.
+</p>
+
+
+<h3>Dashboard Architecture</h3>
+
+
+<p>
+The BI workflow follows the structure:
+</p>
+
+
+<p align="center">
+<strong>
+SQL Database → Analytical Views → Power BI → Executive Insights
+</strong>
+</p>
+
+
+<p>
+By connecting Power BI directly to the SQL database, the dashboard becomes database-driven rather than dependent on manually updated files.
+</p>
+
+
+<h3>Power BI Dashboard Capabilities</h3>
+
+
+<ul>
+
+<li>
+<strong>Energy Performance Overview:</strong>
+Displays total energy production, average generation, peak production periods, and site-level comparisons.
+<img src="Plot/2.png" width="800">
+</li>
+
+
+<li>
+<strong>Temporal Pattern Analysis:</strong>
+Shows hourly generation behavior, seasonal trends, weekday versus weekend differences, and production heatmaps.
+<img src="Plot/3.png" width="800">
+</li>
+
+
+<li>
+<strong>Forecast Monitoring:</strong>
+Provides future energy production estimates, confidence intervals, and forecasting trends.
+<img src="Plot/4.png" width="800">
+</li>
+
+
+<li>
+<strong>Site Performance Analytics:</strong>
+Helps identify high-performing and underperforming solar installations.
+</li>
+
+</ul>
+
+
+<hr>
+
+
+<h2> Key Insights & Findings</h2>
+
+<p>
+The complete analytics workflow uncovered several important insights about Calgary’s solar PV generation behavior.
+</p>
+
+
+<ul>
+
+<li>
+<strong>Solar generation is highly predictable:</strong>
+Although renewable energy is affected by weather and seasonal conditions, historical production contains strong temporal patterns that enable reliable forecasting.
+</li>
+
+
+<li>
+<strong>Peak production occurs during daytime hours:</strong>
+The highest energy generation typically occurs between <strong>08:00 and 16:00</strong>, providing opportunities for optimized energy scheduling.
+</li>
+
+
+<li>
+<strong>Winter introduces higher uncertainty:</strong>
+Reduced sunlight availability and weather conditions create greater production volatility during winter months.
+</li>
+
+
+<li>
+<strong>Site-specific behavior matters:</strong>
+Different PV installations demonstrate unique production patterns, requiring customized monitoring and optimization strategies.
+</li>
+
+
+<li>
+<strong>Feature engineering improves forecasting:</strong>
+Lag variables and rolling averages provide valuable information for capturing short-term fluctuations and improving prediction accuracy.
+</li>
+
+
+</ul>
+
+
+<hr>
+
+
+<h2> Business Recommendations</h2>
+
+
+<p>
+Based on the analytical findings, several operational and strategic recommendations were developed:
+</p>
+
+
+<ol>
+
+<li>
+<strong>Optimize Battery Storage Planning</strong><br>
+Increase investment in energy storage solutions, particularly during periods with high production variability such as winter months.
+</li>
+
+
+<li>
+<strong>Improve Maintenance Scheduling</strong><br>
+Schedule maintenance activities during low-production periods to minimize energy losses.
+</li>
+
+
+<li>
+<strong>Use Rolling Forecasts for Operations</strong><br>
+Apply forecasting models to support short-term planning, grid management, and renewable integration.
+</li>
+
+
+<li>
+<strong>Monitor Underperforming Installations</strong><br>
+Use site-level analytics to identify installations requiring inspection or performance improvement.
+</li>
+
+
+<li>
+<strong>Manage High-Volatility Periods</strong><br>
+Develop proactive strategies for periods with increased uncertainty in renewable generation.
+</li>
+
+
+</ol>
+
+
+<hr>
+
+
+<h2> Future Development</h2>
+
+
+<p>
+This project provides a strong foundation for future expansion into advanced renewable energy intelligence systems.
+</p>
+
+
+<p>
+Potential improvements include:
+</p>
+
+
+<ul>
+
+<li>
+Integration of weather information such as temperature, solar radiation, cloud coverage, and precipitation.
+</li>
+
+
+<li>
+Addition of holiday, occupancy, and demand-side energy consumption data.
+</li>
+
+
+<li>
+Implementation of automated model retraining pipelines.
+</li>
+
+
+<li>
+Development of real-time renewable energy monitoring dashboards.
+</li>
+
+
+<li>
+Estimation of city-wide carbon reduction impact from solar adoption.
+</li>
+
+
+<li>
+Deployment of cloud-based forecasting services for continuous operational use.
+</li>
+
+
+</ul>
+
+
+<hr>
+
+
+<h2> Technology Stack</h2>
+
+
+<table border="1" cellspacing="0" cellpadding="8">
+
+<tr>
+<th>Layer</th>
+<th>Technology</th>
+</tr>
+
+
+<tr>
+<td>
+Data Processing
+</td>
+<td>
+Python, Pandas, NumPy
+</td>
+</tr>
+
+
+<tr>
+<td>
+Data Engineering & ETL
+</td>
+<td>
+SQLAlchemy, SQL Views, Database Pipelines
+</td>
+</tr>
+
+
+<tr>
+<td>
+Database
+</td>
+<td>
+MySQL / SQLite / PostgreSQL
+</td>
+</tr>
+
+
+<tr>
+<td>
+Forecasting
+</td>
+<td>
+ARIMA, SARIMA, Prophet, Statistical Forecasting Models
+</td>
+</tr>
+
+
+<tr>
+<td>
+Visualization
+</td>
+<td>
+Matplotlib, Seaborn, Plotly
+</td>
+</tr>
+
+
+<tr>
+<td>
+Business Intelligence
+</td>
+<td>
+Power BI, MySQL Connector/NET
+</td>
+</tr>
+
+
+</table>
+
+
+<hr>
+
+
+<h2> Project Structure</h2>
+
+
+<pre><code>
+
+Calgary-Solar-PV-Analytics/
+
+│
+
+├── data/
+│   └── raw solar production datasets
+
+├── notebooks/
+│   └── EDA and forecasting analysis
+
+├── sql/
+│   └── database views and analytical queries
+
+├── pipeline/
+│   └── ETL processing scripts
+
+├── dashboard/
+│   └── Power BI dashboard files
+
+├── models/
+│   └── forecasting models
+
+├── requirements.txt
+
+└── README.md
+
+</code></pre>
+
+
+<hr>
+
+
+<h2> Final Statement</h2>
+
+
+<p>
+This project demonstrates the ability to transform large-scale renewable energy datasets into meaningful business intelligence through data engineering, SQL analytics, machine learning forecasting, and visualization.
+</p>
+
+
+<p>
+By combining automated ETL pipelines, SQL-driven analytics, feature engineering, forecasting models, and Power BI dashboards, the platform delivers a reproducible and scalable approach for renewable energy decision support.
+</p>
+
+
+<p>
+The project highlights practical skills in:
+</p>
+
+
+<ul>
+
+<li>
+Energy Data Analytics
+</li>
+
+<li>
+Data Engineering and ETL Development
+</li>
+
+<li>
+SQL-Based Business Intelligence
+</li>
+
+<li>
+Time-Series Forecasting
+</li>
+
+<li>
+Machine Learning Applications
+</li>
+
+<li>
+Data Storytelling and Visualization
+</li>
+
+</ul>
+
+
+<p align="center">
+
+<strong>
+Chemical Engineer | Energy Data Analyst | Renewable Energy Analytics | Python & Machine Learning
+</strong>
+
+</p>
