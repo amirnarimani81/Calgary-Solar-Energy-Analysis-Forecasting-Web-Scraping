@@ -12,7 +12,7 @@ From Raw Renewable Energy Data to Data-Driven Grid Intelligence
 
 
 <p>
-<img src="Plot/1.png" width="300">
+<img src="Plot/1.png" width="600">
 </p>
 
 <hr>
