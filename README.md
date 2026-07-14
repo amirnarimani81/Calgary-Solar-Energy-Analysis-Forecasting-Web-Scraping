@@ -114,7 +114,7 @@ This project addresses these challenges by developing automated analytics pipeli
 
 <img src="1.Calgary Solar Energy Analytics & forecasting/Plot/Picture1.png" width="800">
 <p>
-Solar energy generation is highly variable because production depends on sunlight availability, seasonal patterns, weather conditions, and installation characteristics.
+Calgary Solar energy generation is highly variable because production depends on sunlight availability, seasonal patterns, weather conditions, and installation characteristics.
 </p>
 
 
