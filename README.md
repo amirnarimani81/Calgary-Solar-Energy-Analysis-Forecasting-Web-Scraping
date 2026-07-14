@@ -161,7 +161,7 @@ To address this challenge, the project develops a solar PV analytics and forecas
 </p>
 
 <p>
-Energy companies operate in rapidly changing financial environments where stock performance and revenue trends provide important signals for investors and business analysts.
+Energy companies(Shell, Suncore, Exxomobile, Chevron, etc) operate in rapidly changing financial environments where stock performance and revenue trends provide important signals for investors and business analysts.
 </p>
 
 
