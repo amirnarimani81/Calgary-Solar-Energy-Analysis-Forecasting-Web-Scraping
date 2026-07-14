@@ -11,7 +11,7 @@ An End-to-End Energy Financial Intelligence Platform Combining Web Scraping, ETL
 
 <p align="center">
 
-<a href="">
+<a href="https://youtu.be/62rbfMkXzkU">
 ▶ Watch Streamlit Dashboard Demo
 </a>
 
