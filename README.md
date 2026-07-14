@@ -126,7 +126,7 @@ Energy planners need answers to critical questions:
 <ul>
 
 <li>
-How much solar energy will be produced in the future?
+How much calgary solar energy will be produced in the future?
 </li>
 
 <li>
@@ -223,7 +223,7 @@ For renewable energy analytics, historical solar PV generation data is collected
 
 
 <p>
-For financial analytics, market information is collected automatically using APIs and web scraping techniques.
+For financial analytics, market information is collected automatically using APIs and web scraping techniques (Suncore,Shell, Exxpmobile, Chevron etc).
 </p>
 
 
