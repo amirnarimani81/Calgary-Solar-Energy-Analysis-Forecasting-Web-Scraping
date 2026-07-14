@@ -112,7 +112,7 @@ This project addresses these challenges by developing automated analytics pipeli
 
 <h3>1. Renewable Energy Forecasting Challenge</h3>
 
-<img src="Plot/1.png" width="800">
+<img src="1.Calgary Solar Energy Analytics & forecasting/Plot/Picture1.png" width="800">
 <p>
 Solar energy generation is highly variable because production depends on sunlight availability, seasonal patterns, weather conditions, and installation characteristics.
 </p>
