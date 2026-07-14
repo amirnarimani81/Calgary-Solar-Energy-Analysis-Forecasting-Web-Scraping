@@ -239,7 +239,7 @@ City of Calgary Solar Energy Production Sites Dataset
 </li>
 
 <li>
-Yahoo Finance market data through yfinance
+Yahoo Finance market data through yfinance (Shell, Suncore, Exxomobile, Chevron, etc)
 </li>
 
 <li>
