@@ -2,6 +2,7 @@
 Energy Analytics Intelligence Platform
 </h1>
 
+
 <p align="center">
 <strong>
 From Renewable Energy Data and Financial Markets to Predictive Business Intelligence
@@ -111,6 +112,9 @@ This project addresses these challenges by developing automated analytics pipeli
 
 
 <h3>1. Renewable Energy Forecasting Challenge</h3>
+
+<img src="https://gec.jp/jcm/en/wp-content/uploads/2018/07/ba5ce1cae920df16aecff92a5667d64c.png" alt="Solar Panel" width="80%">
+</center>
 
 <img src="1.Calgary Solar Energy Analytics & forecasting/Plot/Picture1.png" width="800">
 <p>
