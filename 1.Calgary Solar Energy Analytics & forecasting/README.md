@@ -487,6 +487,13 @@ solar_df.to_sql(
     index=False)
 </code></pre>
 
+<p align="center">
+  <img src="Plot/s1.png" width="900">
+</p>
+
+<p align="center">
+  <img src="Plot/s2.png" width="900">
+</p>
 
 <p>
 The database integration provided several advantages:
