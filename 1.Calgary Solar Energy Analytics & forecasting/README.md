@@ -741,7 +741,7 @@ Different PV installation sites.
 </p>
 
 <p>
-<img src="Plot/6.png" width="300">
+<img src="Plot/6.png" width="700">
 </p>
 
 
@@ -753,7 +753,7 @@ Different PV installation sites.
 </p>
 
 <p>
-<img src="Plot/7.png" width="300">
+<img src="Plot/7.png" width="700">
 </p>
 
 
@@ -769,7 +769,7 @@ Different PV installation sites.
 </p>
 
 <p>
-<img src="Plot/8.png" width="300">
+<img src="Plot/8.png" width="700">
 </p>
 
 
@@ -784,7 +784,7 @@ Different PV installation sites.
     These patterns support improved load forecasting, scheduling, and energy optimization.
 </p>
 <p>
-<img src="Plot/9.png" width="300">
+<img src="Plot/9.png" width="700">
 </p>
 
 
@@ -797,7 +797,7 @@ Different PV installation sites.
 </p>
 
 <p>
-<img src="Plot/10.png" width="300">
+<img src="Plot/10.png" width="700">
 </p>
 
 <p>
@@ -807,7 +807,7 @@ anomaly detection, and operational planning.
 </p>
 
 <p>
-<img src="Plot/11.png" width="300">
+<img src="Plot/11.png" width="700">
 </p>
 <hr>
 <h2> Key EDA Findings</h2>
