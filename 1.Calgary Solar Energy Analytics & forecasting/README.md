@@ -368,9 +368,7 @@ files = glob.glob('data/Solar/*.csv')
 
 df_list = [pd.read_csv(f) for f in files]
 
-solar_df = pd.concat(
-    df_list,
-    ignore_index=True)
+solar_df = pd.concat(df_list,ignore_index=True)
 </code></pre>
 
 
@@ -480,7 +478,7 @@ SQLAlchemy was used to connect Python analytics workflows with database systems 
 from sqlalchemy import create_engine
 
 engine = create_engine(
-    'postgresql://user:password@localhost:5432/solar_energy_db')
+    'postgresql://user:password/solar_energy_db')
 
 solar_df.to_sql(
     'solar_energy_fact',
