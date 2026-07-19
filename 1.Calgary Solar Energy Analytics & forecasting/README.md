@@ -733,8 +733,83 @@ Different PV installation sites.
 
 
 <hr>
+<p>
+    <b>Insight:</b> Monthly analysis showed that <b>February</b> recorded the highest 
+    energy_kwh values, followed by <b>October and November</b>. These seasonal trends 
+    highlight periods of increased energy demand and provide valuable insights for 
+    energy forecasting, scheduling, and operational planning.
+</p>
+
+<p>
+<img src="Plot/6.png" width="300">
+</p>
 
 
+<p>
+    <b>Insight:</b> This visualization identifies peak and lower energy_kwh periods, 
+    supporting energy scheduling and operational planning. Energy consumption remained 
+    consistently high during <b>winter, spring, and summer</b>, indicating stable 
+    seasonal demand patterns.
+</p>
+
+<p>
+<img src="Plot/7.png" width="300">
+</p>
+
+
+<p>
+    The hourly analysis shows how solar energy generation changes throughout the day, 
+    revealing the most productive periods.
+</p>
+
+<p>
+    <b>Insight:</b> Energy production peaks between <b>10:00 and 15:00</b>, 
+    highlighting the optimal generation window for improved scheduling, forecasting, 
+    and operational planning.
+</p>
+
+<p>
+<img src="Plot/8.png" width="300">
+</p>
+
+
+<p>
+    The weekly analysis highlights how energy consumption changes across different 
+    days, revealing consistent operational patterns.
+</p>
+
+<p>
+    <b>Insight:</b> Energy consumption is higher on <b>weekdays</b>, with peak demand 
+    typically occurring on <b>Monday and Tuesday</b>, while weekends show lower usage. 
+    These patterns support improved load forecasting, scheduling, and energy optimization.
+</p>
+<p>
+<img src="Plot/9.png" width="300">
+</p>
+
+
+<p>
+    <b>Insight:</b> This visualization highlights energy_kwh performance across 
+    different plants, supporting energy scheduling and operational planning. 
+    <b>Bearspaw, Whitehorn Multi Service, Glenmore, and North Calgary</b> are among 
+    the highest-performing plants in the Calgary and Alberta region, making them 
+    important assets for monitoring and optimization.
+</p>
+
+<p>
+<img src="Plot/10.png" width="300">
+</p>
+
+<p>
+<b>Insight:</b> The 2-week rolling analysis reveals stable energy patterns, highlights 
+peak production periods, and detects unusual fluctuations to support forecasting, 
+anomaly detection, and operational planning.
+</p>
+
+<p>
+<img src="Plot/11.png" width="300">
+</p>
+<hr>
 <h2> Key EDA Findings</h2>
 
 <p>
